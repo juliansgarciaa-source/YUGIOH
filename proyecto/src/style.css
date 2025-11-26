@@ -1,0 +1,89 @@
+/* ================================
+   AJUSTES PARA LA SECCIÓN ORIGINAL
+   ================================ */
+
+/* Contenedor principal (#app) */
+#app {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 18px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 20px #00000099;
+  color: white;
+  text-align: center;
+}
+
+/* Título */
+#app h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  text-shadow: 0px 0px 8px #ffd900;
+}
+
+/* Input y botón de búsqueda */
+#app input {
+  padding: 12px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Botón de búsqueda */
+#btnBuscar {
+  background: linear-gradient(135deg, #ffae00, #d47f00);
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.2s;
+  box-shadow: 0px 0px 10px #ffae0044;
+}
+
+#btnBuscar:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px #ffae00aa;
+}
+
+/* Contenedor del resultado */
+#resultado {
+  margin-top: 30px;
+  background: rgba(0,0,0,0.45);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(4px);
+}
+
+/* Imagen de la carta */
+#resultado img {
+  width: 250px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px #000000aa;
+}
+
+/* Botón guardar */
+#btnGuardar {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #00eaff, #009dff);
+  box-shadow: 0px 0px 10px #00c8ff88;
+  cursor: pointer;
+  font-weight: bold;
+  display: none;
+}
+
+#btnGuardar:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px #00d9ffcc;
+}
